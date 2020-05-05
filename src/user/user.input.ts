@@ -13,9 +13,6 @@ export class UserDTO  implements Partial<UserEntity> {
   password!: string;
 
   @FilterableField()
-  role: string;
-
-  @FilterableField()
   phone: string;
 
   @Field()
